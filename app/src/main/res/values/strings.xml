@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="close">Schließen</string>
+  <string name="finish">Fertig</string>
+
+  <string name="start_categories_headline">Fragekategorien</string>
+  <string name="start_all_categories">Alle Fragen</string>
+  <string name="start_test_headline">Prüfung</string>
+  <string name="start_test_select_questionpaper">Fragebogen wählen</string>
+  <!--<string name="start_test_random_questions">30 zufällige Fragen (TO IMPLEMENT!!)</string>-->
+  <string name="row_question_category_open">%1$d von %2$d Fragen abgeschlossen</string>
+
+  <string name="question_paper_selection_title">Fragebögen</string>
+  <string name="question_paper_selection_text">Bitte wählen Sie einen der folgenden Fragebögen</string>
+  <string name="question_paper_selection_random">Zufälliger Bogen</string>
+
+  <string name="question_paper_result_text">Fragebogen beendet</string>
+  <string name="question_paper_result_success">Sie haben den Fragebogen erfolgreich beendet.\n%1$d von %2$d Fragen korrekt
+    beantwortet (benötigt: %3$d)</string>
+  <string name="question_paper_result_failure">Sie haben den Fragebogen leider nicht erfolgreich beendet.\n%1$d von %2$d Fragen korrekt
+    beantwortet (benötigt: %3$d)</string>
+
+  <string name="dialog_question_paper_result_correct_answer_headline">
+    <u>Korrekte Antwort:</u>
+  </string>
+  <string name="dialog_question_paper_result_chosen_answer_headline">
+    <u>Ihre Antwort:</u>
+  </string>
+
+  <string name="question_paper_button_text">Fragebogen starten</string>
+  <string name="question_info">Frage Nr. %s</string>
+  <string name="question_number_answers">Korrekte Antworten: %d</string>
+
+  <string name="question_submit">Lösung</string>
+  <string name="question_submit_skip">Überspringen</string>
+  <string name="question_next">Nächste Frage</string>
+  <string name="question_copyright">&#169; %s</string>
+
+  <string name="dialog_question_category_finished_text">Herzlichen Glückwunsch, es sind keine offnen Fragen mehr in dieser Kategorie vorhanden.</string>
+  <string name="dialog_question_category_finished_reset">Neu beginnen</string>
+  <string name="dialog_question_category_finished_back">Andere Kategorie wählen</string>
+
+  <string name="statistics_title">Statistik</string>
+  <string name="statistics_headline">Ihr Fortschritt</string>
+  <string name="statistics_complete_progress">Gesamtfortschritt: </string>
+  <string name="statistics_no_correct_answers">Unbeantwortete Fragen: </string>
+  <string name="statistics_1_correct_answers">1x richtig beantwortete Fragen:</string>
+  <string name="statistics_2_correct_answers">2x richtig beantwortete Fragen:</string>
+  <string name="statistics_3_correct_answers">3x richtig beantwortete Fragen:</string>
+  <string name="statistics_4_correct_answers">4x richtig beantwortete Fragen:</string>
+  <string name="statistics_5_correct_answers">5x richtig beantwortete Fragen:</string>
+
+  <string name="exam_info_title">Informationen zur Prüfung</string>
+  <string name="exam_info_theorie_headline">Theorie</string>
+  <string name="exam_info_praxis_headline">Praxis</string>
+  <string name="exam_info_knoten_headline">Knoten</string>
+
+
+  <string name="settings_title">Einstellungen</string>
+  <string name="settings_general">Allgemein</string>
+
+  <string name="feedback_title">Feedback</string>
+  <string name="about_title">Über</string>
+  <string name="about_author_title">Entwickelt von</string>
+  <string name="about_author_url">https://dev-eth0.de</string>
+  <string name="about_version_title">Version</string>
+  <string name="about_author_twitter_title">Twitter</string>
+  <string name="about_author_twitter_url">https://twitter.com/#!/deveth0</string>
+  <string name="about_license">Lizenz</string>
+  <string name="about_license_summary">Diese App steht unter der Apache 2.0 Lizenz</string>
+  <string name="about_external_copyright">Copyright der Fragen</string>
+  <string name="about_external_copyright_summary">Nutzung mit freundlicher Genehmigung der Wasser- und Schifffahrtsverwaltung des Bundes</string>
+  <string name="about_external_copyright_url">https://www.elwis.de</string>
+
+  <string name="report_issue_dialog_title_crash">Absturz erkannt</string>
+  <string name="report_issue_dialog_message_crash">Möchten Sie einen Fehlerbericht senden, um bei der Fehlerbehebung zu helfen?</string>
+  <string name="report_issue_dialog_description">Problembeschreibung</string>
+  <string name="report_issue_dialog_report">Senden</string>
+  <string name="report_issue_dialog_cancel">Abbrechen</string>
+  <string name="report_issue_dialog_collect_device_info">Geräte-Informationen anhängen</string>
+  <string name="report_issue_dialog_collect_application_log">Applikations-Logfile anhängen</string>
+  <string name="report_issue_dialog_mail_intent_chooser">Bericht senden mit…</string>
+
+  <string name="help_title">Hilfe</string>
+
+  <!--Strings for all product flavors-->
+  <string name="app_name"></string>
+  <string name="exam_info_intro"></string>
+  <string name="exam_info_theorie_text"></string>
+  <string name="exam_info_praxis_text"></string>
+  <string name="exam_info_knoten_text"></string>
+  <string name="exam_info_disclaimer"></string>
+  <string name="start_text"></string>
+</resources>

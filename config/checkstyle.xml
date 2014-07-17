@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN" "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <property name="severity" value="warning"/>
+    <module name="RegexpHeader">
+        <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Following interprets the header file as regular expressions."/>
+        <property name="header" value="//\$URL: .*\$\n//\$Id: .*\$\n"/>
+    </module>
+    <module name="FileLength">
+        <property name="max" value="4000"/>
+    </module>
+    <module name="FileTabCharacter"/>
+    <module name="TreeWalker">
+        <property name="tabWidth" value="2"/>
+        <module name="FileContentsHolder"/>
+        <module name="JavadocMethod">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="we do very lax checking here and depend primarily on eclipse javadoc checks"/>
+            <property name="scope" value="public"/>
+            <property name="allowUndeclaredRTE" value="true"/>
+            <property name="allowThrowsTagsForSubclasses" value="true"/>
+            <property name="allowMissingParamTags" value="true"/>
+            <property name="allowMissingThrowsTags" value="true"/>
+            <property name="allowMissingReturnTag" value="true"/>
+            <property name="allowMissingJavadoc" value="true"/>
+        </module>
+        <module name="JavadocType">
+            <property name="scope" value="public"/>
+        </module>
+        <module name="JavadocVariable">
+            <property name="scope" value="public"/>
+        </module>
+        <module name="MemberName">
+            <property name="format" value="^m[A-Z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+        <module name="StaticVariableName">
+            <property name="format" value="^m[A-Z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+        <module name="MethodName">
+            <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+        <module name="ParameterName">
+            <property name="format" value="^p[A-Z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+        <module name="LocalVariableName">
+            <property name="format" value="^[a-z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+        <module name="ConstantName">
+          <property name="format" value="^([A-Z][A-Z0-9]*(_[A-Z0-9]+)*|mLog)$"/>
+        </module>
+        <module name="PackageName"/>
+        <module name="TypeName">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Classnames are allowed to have &quot;_&quot; in them. Needed in Entity Mapping"/>
+            <property name="severity" value="error"/>
+            <property name="format" value="^[A-Z][_a-zA-Z0-9]*$"/>
+        </module>
+        <module name="LocalFinalVariableName">
+            <property name="format" value="^[a-zA-Z](_?[a-zA-Z0-9]+)*$"/>
+        </module>
+        <!--
+        <module name="AvoidStarImport">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="only imports with more then 12 classes from one package should use *"/>
+            <property name="severity" value="info"/>
+        </module>
+        -->
+        <module name="IllegalImport"/>
+        <module name="RedundantImport"/>
+        <module name="UnusedImports"/>
+        <module name="MethodLength">
+            <property name="max" value="300"/>
+        </module>
+        <module name="ParameterNumber">
+            <property name="max" value="12"/>
+        </module>
+        <module name="EmptyForIteratorPad"/>
+        <module name="NoWhitespaceAfter">
+            <property name="tokens" value="BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS,TYPECAST"/>
+        </module>
+        <module name="NoWhitespaceBefore"/>
+        <module name="OperatorWrap"/>
+        <module name="ParenPad">
+            <property name="tokens" value="CTOR_CALL,METHOD_CALL,SUPER_CTOR_CALL"/>
+        </module>
+        <module name="WhitespaceAfter">
+            <property name="tokens" value="SEMI"/>
+        </module>
+        <module name="WhitespaceAround">
+            <property name="tokens" value="LCURLY,LITERAL_CATCH,LITERAL_DO,LITERAL_ELSE,LITERAL_FINALLY,LITERAL_FOR,LITERAL_IF,LITERAL_RETURN,LITERAL_SYNCHRONIZED,LITERAL_TRY,LITERAL_WHILE"/>
+        </module>
+        <module name="ModifierOrder"/>
+        <module name="RedundantModifier"/>
+        <module name="LeftCurly">
+            <property name="maxLineLength" value="120"/>
+        </module>
+        <!--
+        <module name="RightCurly">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Makes sure that the bracket is on the same line"/>
+            <property name="option" value="alone"/>
+        </module>
+       -->
+        <module name="AvoidNestedBlocks"/>
+        <module name="EmptyBlock">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="should be documented"/>
+            <property name="option" value="text"/>
+        </module>
+        <module name="NeedBraces"/>
+        <module name="EmptyStatement"/>
+        <module name="EqualsHashCode"/>
+        <module name="HiddenField"/>
+        <module name="IllegalInstantiation"/>
+        <module name="InnerAssignment"/>
+        <module name="RedundantThrows">
+            <property name="allowUnchecked" value="true"/>
+            <property name="allowSubclasses" value="true"/>
+        </module>
+        <module name="SimplifyBooleanExpression"/>
+        <module name="SimplifyBooleanReturn"/>
+        <module name="InterfaceIsType"/>
+        <module name="VisibilityModifier"/>
+        <module name="ArrayTypeStyle"/>
+        <module name="UpperEll"/>
+        <module name="StringLiteralEquality"/>
+        <module name="SuperClone"/>
+        <module name="SuperFinalize"/>
+        <module name="CovariantEquals"/>
+        <module name="FallThrough"/>
+        <module name="IllegalThrows"/>
+        <module name="IllegalType">
+            <property name="tokens" value="METHOD_DEF,PARAMETER_DEF"/>
+        </module>
+        <module name="JavadocStyle">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Checks for well formed Javadoc"/>
+            <property name="severity" value="info"/>
+            <property name="checkFirstSentence" value="false"/>
+            <property name="checkHtml" value="false"/>
+        </module>
+        <module name="LineLength">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Lines schould be 120 optimal to fit on all screens"/>
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.lastEnabledSeverity" value="info"/>
+            <property name="severity" value="info"/>
+            <property name="ignorePattern" value="//\$URL:[.]*"/>
+            <property name="max" value="160"/>
+        </module>
+        <module name="LineLength">
+            <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="lines should be kept below 160.Only in exceptional cases in which it can't be avoided it is allowed"/>
+            <property name="ignorePattern" value="//\$URL:[.]*"/>
+            <property name="max" value="220"/>
+            <property name="tabWidth" value="2"/>
+        </module>
+        <!--
+        <module name="ParameterAssignment"/>
+        -->
+        <module name="DefaultComesLast"/>
+        <module name="DeclarationOrder">
+            <property name="severity" value="ignore"/>
+        </module>
+        <module name="ModifiedControlVariable"/>
+        <module name="PackageDeclaration"/>
+        <module name="AnnotationUseStyle"/>
+        <module name="EqualsAvoidNull"/>
+        <module name="NoFinalizer"/>
+        <module name="NoClone"/>
+        <module name="GenericWhitespace"/>
+    </module>
+    <module name="Translation">
+        <metadata name="com.atlassw.tools.eclipse.checkstyle.comment" value="Checks that property files contain the same keys. See http://checkstyle.sf.net/config_misc.html#Translation"/>
+    </module>
+    <module name="SuppressionCommentFilter"/>
+</module>

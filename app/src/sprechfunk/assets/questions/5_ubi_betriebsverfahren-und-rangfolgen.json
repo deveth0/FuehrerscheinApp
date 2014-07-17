@@ -1,0 +1,428 @@
+{
+    "id": "ubi-betriebsverfahren-und-rangfolgen",
+    "title": "5. Betriebsverfahren und Rangfolgen",
+    "copyright": {
+        "text": "Fachstelle der WSV für Verkehrstechniken",
+        "src": "http://www.fvt.wsv.de/"
+    },
+    "questions": [
+        {
+            "id": "109",
+            "text": "Welche Funkstellen sind zur Einleitung von Rettungsmaßnahmen vorzugsweise anzurufen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Revierzentralen"
+                },
+                {
+                    "text": "Rettungsleitstellen"
+                },
+                {
+                    "text": "Schiffsfunkstellen"
+                },
+                {
+                    "text": "Polizeifunkstellen"
+                }
+            ]
+        },
+        {
+            "id": "110",
+            "text": "Wie ist die Rangfolge des Funkverkehrs im Binnenschifffahrtsfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Notverkehr, Dringlichkeitsverkehr, Sicherheitsverkehr, Routineverkehr"
+                },
+                {
+                    "text": "Dringlichkeitsverkehr, Notverkehr, Sicherheitsverkehr, Routineverkehr"
+                },
+                {
+                    "text": "Sicherheitsverkehr, Dringlichkeitsverkehr, Notverkehr, Routineverkehr"
+                },
+                {
+                    "text": "Notverkehr, Dringlichkeitsverkehr, Routineverkehr, Sicherheitsverkehr"
+                }
+            ]
+        },
+        {
+            "id": "111",
+            "text": "Wie heißt das Notzeichen im Sprechfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "MAYDAY"
+                },
+                {
+                    "text": "PAN PAN"
+                },
+                {
+                    "text": "SOS"
+                },
+                {
+                    "text": "SECURITE"
+                }
+            ]
+        },
+        {
+            "id": "112",
+            "text": "Ein Notverkehr im Binnenschifffahrtsfunk muss eingeleitet werden, wenn eine unmittelbare Gefährdung von Mensch oder Schiff gegeben ist oder…",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "eine Gefahrenabwehr an Land notwendig ist"
+                },
+                {
+                    "text": "das Schiff manövrierunfähig ist"
+                },
+                {
+                    "text": "gefährliche Wetterlagen auftreten"
+                },
+                {
+                    "text": "eine Behinderung der Schifffahrt droht"
+                }
+            ]
+        },
+        {
+            "id": "113",
+            "text": "Welcher Funkverkehr ist einzuleiten, wenn sich an Bord eine lebensgefährlich verletzte Person befindet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Notverkehr"
+                },
+                {
+                    "text": "Dringlichkeitsverkehr"
+                },
+                {
+                    "text": "Sicherheitsverkehr"
+                },
+                {
+                    "text": "Routineverkehr"
+                }
+            ]
+        },
+        {
+            "id": "114",
+            "text": "Welcher Funkverkehr ist einzuleiten, wenn eine Person über Bord gefallen ist?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Notverkehr"
+                },
+                {
+                    "text": "Dringlichkeitsverkehr"
+                },
+                {
+                    "text": "Sicherheitsverkehr"
+                },
+                {
+                    "text": "Routineverkehr"
+                }
+            ]
+        },
+        {
+            "id": "115",
+            "text": "Welcher Funkverkehr ist einzuleiten, wenn das Fahrzeug in gefährlicher Weise zu kentern droht?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Notverkehr"
+                },
+                {
+                    "text": "Dringlichkeitsverkehr"
+                },
+                {
+                    "text": "Sicherheitsverkehr"
+                },
+                {
+                    "text": "Routineverkehr"
+                }
+            ]
+        },
+        {
+            "id": "116",
+            "text": "Wer bestätigt eine Notmeldung im Verkehrskreis „Nautische Information“?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Ortsfeste Funkstelle"
+                },
+                {
+                    "text": "Behördenfahrzeug"
+                },
+                {
+                    "text": "In der Nähe befindliche Schiffsfunkstelle"
+                },
+                {
+                    "text": "Der Schiffsführer"
+                }
+            ]
+        },
+        {
+            "id": "117",
+            "text": "Wer bestätigt eine Notmeldung im Verkehrskreis „Schiff-Schiff“?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "In der Nähe befindliche Schiffsfunkstelle"
+                },
+                {
+                    "text": "Ortsfeste Funkstelle"
+                },
+                {
+                    "text": "Verkehrsposten"
+                },
+                {
+                    "text": "Der Schiffsführer"
+                }
+            ]
+        },
+        {
+            "id": "118",
+            "text": "Was bedeuten die Worte MAYDAY RELAY?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Aussendung einer Notmeldung durch eine Funkstelle, die sich selbst nicht in Not befindet"
+                },
+                {
+                    "text": "Beendigung einer Notmeldung durch die Funkstelle, die den Notverkehr leitet"
+                },
+                {
+                    "text": "Bestätigung des Empfangs einer Notmeldung"
+                },
+                {
+                    "text": "Notmeldung an eine Landstation mit der Bitte um Leitung des Notverkehrs"
+                }
+            ]
+        },
+        {
+            "id": "119",
+            "text": "Was bedeuten die Worte SILENCE FINI?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Der Notverkehr ist beendet"
+                },
+                {
+                    "text": "Einer Funkstelle, die den Notverkehr stört, wird Funkstille geboten"
+                },
+                {
+                    "text": "Dringlichkeits- und Sicherheitsverkehr darf wieder aufgenommen werden"
+                },
+                {
+                    "text": "Alle Funkstellen müssen Funkstille einhalten"
+                }
+            ]
+        },
+        {
+            "id": "120",
+            "text": "Was bedeuten die Worte SILENCE MAYDAY?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Die Funkstelle in Not gebietet den nicht am Notverkehr beteiligten Funkstellen Funkstille"
+                },
+                {
+                    "text": "Der Notverkehr ist beendet"
+                },
+                {
+                    "text": "Die am Notverkehr beteiligten Funkstellen genießen Vorrang"
+                },
+                {
+                    "text": "Eine Notmeldung folgt"
+                }
+            ]
+        },
+        {
+            "id": "121",
+            "text": "Woraus besteht das Dringlichkeitszeichen im Sprechfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "PAN PAN"
+                },
+                {
+                    "text": "MAYDAY"
+                },
+                {
+                    "text": "SECURITE"
+                },
+                {
+                    "text": "URGENT"
+                }
+            ]
+        },
+        {
+            "id": "122",
+            "text": "Wann liegt ein Dringlichkeitsfall vor?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Wenn dringende Nachrichten übermittelt werden sollen, welche die Sicherheit von Personen oder des Schiffes betreffen"
+                },
+                {
+                    "text": "Wenn eine unmittelbare Gefährdung von Mensch oder Schiff gegeben ist oder eine Gefahrenabwehr an Land notwendig ist"
+                },
+                {
+                    "text": "Wenn dringende Nachrichten übermittelt werden sollen, welche den Empfang eines Notzeichens betreffen"
+                },
+                {
+                    "text": "Wenn dringende Nachrichten übermittelt werden sollen, welche die Unterstützung durch die Wasserschutzpolizei betreffen"
+                }
+            ]
+        },
+        {
+            "id": "123",
+            "text": "Welche Meldungen können beispielsweise mit dem Dringlichkeitszeichen angekündigt werden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Meldungen, die sich auf Krankheiten beziehen, die keine Lebensgefahr bedeuten, oder auf Schäden an Fahrzeugen, ohne dass davon eine unmittelbare Gefahr ausgeht"
+                },
+                {
+                    "text": "Meldungen, die sich auf eine unmittelbare Gefährdung von Mensch oder Schiff oder eine Gefahrenabwehr an Land beziehen"
+                },
+                {
+                    "text": "Meldungen, die sich auf Krankheiten beziehen, die keine Lebensgefahr bedeuten, oder auf Schäden an Fahrzeugen, von denen eine unmittelbare Gefahr ausgeht"
+                },
+                {
+                    "text": "Meldungen, die sich auf lebensgefährliche Krankheiten oder auf Schäden an Fahrzeugen oder Anlagen beziehen"
+                }
+            ]
+        },
+        {
+            "id": "124",
+            "text": "Welcher Funkverkehr ist einzuleiten, wenn an Bord eine Person einen Knochenbruch am Unterarm erlitten hat und ärztlicher Versorgung bedarf?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Dringlichkeitsverkehr"
+                },
+                {
+                    "text": "Notverkehr"
+                },
+                {
+                    "text": "Sicherheitsverkehr"
+                },
+                {
+                    "text": "Routineverkehr"
+                }
+            ]
+        },
+        {
+            "id": "125",
+            "text": "Welcher Funkverkehr ist grundsätzlich einzuleiten, wenn das Fahrzeug einen Maschinenschaden hat, der die Sicherheit des Schiffsverkehrs gefährden könnte?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Dringlichkeitsverkehr"
+                },
+                {
+                    "text": "Notverkehr"
+                },
+                {
+                    "text": "Sicherheitsverkehr"
+                },
+                {
+                    "text": "Routineverkehr"
+                }
+            ]
+        },
+        {
+            "id": "126",
+            "text": "Wie lautet das Sicherheitszeichen im Sprechfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "SECURITE"
+                },
+                {
+                    "text": "MAYDAY"
+                },
+                {
+                    "text": "PAN PAN"
+                },
+                {
+                    "text": "SOS"
+                }
+            ]
+        },
+        {
+            "id": "127",
+            "text": "Welche Meldungen werden mit dem Sicherheitszeichen SECURITE angekündigt?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Nachrichten, die eine wichtige nautische Warnnachricht oder eine wichtige Wetterwarnung beinhalten"
+                },
+                {
+                    "text": "Nachrichten, die eine wichtige nautische Warnnachricht oder den Radareinsatz bei unsichtigem Wetter beinhalten"
+                },
+                {
+                    "text": "Nachrichten, die eine wichtige Wetterwarnung oder eine Warnung zur Vermeidung von Umweltschäden beinhalten"
+                },
+                {
+                    "text": "Nachrichten, die eine wichtige nautische Warnnachricht oder eine dringende medizinische Meldung beinhalten"
+                }
+            ]
+        },
+        {
+            "id": "128",
+            "text": "Welche Meldung ist zu verbreiten, wenn ein treibender Baumstamm beobachtet wird, der eine Gefahr für den Verkehr darstellt?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Sicherheitsmeldung"
+                },
+                {
+                    "text": "Notmeldung"
+                },
+                {
+                    "text": "Dringlichkeitsmeldung"
+                },
+                {
+                    "text": "keine Meldung"
+                }
+            ]
+        },
+        {
+            "id": "129",
+            "text": "Welche Meldung ist zu verbreiten, wenn eine vertriebene Tonne beobachtet wird?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Sicherheitsmeldung"
+                },
+                {
+                    "text": "Notmeldung"
+                },
+                {
+                    "text": "Dringlichkeitsmeldung"
+                },
+                {
+                    "text": "keine Meldung"
+                }
+            ]
+        },
+        {
+            "id": "130",
+            "text": "Wer entscheidet über die Art der auszusendenden Sprechfunkmeldung?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Schiffsführer"
+                },
+                {
+                    "text": "Bediener der Funkanlage"
+                },
+                {
+                    "text": "Wasserschutzpolizei"
+                },
+                {
+                    "text": "Revierzentrale"
+                }
+            ]
+        }
+    ]
+}

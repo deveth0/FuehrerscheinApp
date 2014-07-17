@@ -1,0 +1,466 @@
+{
+    "id": "ubi-binnenschifffahrtsfunk",
+    "title": "1. Binnenschifffahrtsfunk",
+    "copyright": {
+        "text": "Fachstelle der WSV für Verkehrstechniken",
+        "src": "http://www.fvt.wsv.de/"
+    },
+    "questions": [
+        {
+            "id": "1",
+            "text": "Was ist Binnenschifffahrtsfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Internationaler mobiler UKW/VHF- Sprechfunkdienst auf Binnenschifffahrtsstraßen"
+                },
+                {
+                    "text": "Nationaler mobiler UKW/VHF-Sprechfunkdienst auf Binnenschifffahrtsstraßen"
+                },
+                {
+                    "text": "Internationales UKW/VHF-Sprechfunkverfahren im Binnenbereich"
+                },
+                {
+                    "text": "Nationales UKW/VHF-Sprechfunkverfahren im Binnenbereich"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "text": "Wozu dient der Binnenschifffahrtsfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkverkehr für bestimmte Zwecke auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren"
+                },
+                {
+                    "text": "Funkverkehr für Schiffsfunkstellen zu bestimmten Zwecken auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren"
+                },
+                {
+                    "text": "Funkverkehr zu Landfunkstellen für bestimmte Zwecke auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren"
+                },
+                {
+                    "text": "Funkverkehr für Schiffsfunkstellen über Landfunkstellen auf vereinbarten Kanälen (Verkehrskreise) und nach einem festgelegten Betriebsverfahren"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "text": "Wo findet man Angaben über die grundsätzlichen Regelungen für den Binnenschifffahrtsfunk in Europa?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Regionale Vereinbarung über den Binnenschifffahrtsfunk (RAINWAT)"
+                },
+                {
+                    "text": "International Convention for the Safety of Life at Sea (SOLAS)"
+                },
+                {
+                    "text": "Verwaltungsvereinbarung über die Koordinierung von Frequenzen (HCM)"
+                },
+                {
+                    "text": "Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)]"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "text": "Was ist eine „ortsfeste Funkstelle”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkstelle, die an Land betrieben wird"
+                },
+                {
+                    "text": "Funkstelle, die von der Fernmeldebehörde betrieben wird"
+                },
+                {
+                    "text": "Funkstelle, die an Bord eines nicht dauernd festgemachten Binnenschiffes betrieben wird"
+                },
+                {
+                    "text": "Funkstelle, die im Verkehrskreis Funkverkehr an Bord betrieben wird"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "text": "Was ist eine „Revierzentrale”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Zentrale Landfunkstelle"
+                },
+                {
+                    "text": "Zentrale Schiffsfunkstelle"
+                },
+                {
+                    "text": "Zentrale Telematikdienste"
+                },
+                {
+                    "text": "Zentrale Seefunkstelle"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "text": "Was ist ein „Verkehrsposten”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Zentrale ortsfeste Funkstelle in den Niederlanden"
+                },
+                {
+                    "text": "Zentrale mobile Funkstelle in den Niederlanden"
+                },
+                {
+                    "text": "Zentrale ortsfeste Funkstelle in den Niederlanden und in Frankreich"
+                },
+                {
+                    "text": "Zentrale mobile Funkstelle in den Niederlanden und in Frankreich"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "text": "Was ist ein „Blockkanal”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkkanal für sicherheitsrelevante Meldungen der Verkehrsposten und Schiffsfunkstellen in den Niederlanden"
+                },
+                {
+                    "text": "Funkkanal für Routinegespräche der Verkehrsposten und Schiffsfunkstellen in den Niederlanden"
+                },
+                {
+                    "text": "Gesperrter Funkkanal der Verkehrsposten und Verkehrszentralen in den Niederlanden"
+                },
+                {
+                    "text": "Funkkanal für öffentlichen Nachrichtenaustausch zwischen den Verkehrsposten in den Niederlanden"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "text": "Was bedeutet „MIB”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Melde- und Informationssystem in der Binnenschifffahrt"
+                },
+                {
+                    "text": "Maritimes Identifikationssystem in der Binnenschifffahrt"
+                },
+                {
+                    "text": "Mobiles Informationssystem in der Binnenschifffahrt"
+                },
+                {
+                    "text": "Melde- und Identifikationssystem in der Binnenschifffahrt"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "text": "Wo darf der Inhaber eines in Deutschland erworbenen UKW-Sprechfunkzeugnisses für den Binnenschifffahrtsfunk am Funkverkehr teilnehmen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "In allen Ländern, die der Regionalen Vereinbarung über den Binnenschifffahrtsfunk beigetreten sind"
+                },
+                {
+                    "text": "In allen Mitgliedstaaten der EU"
+                },
+                {
+                    "text": "In allen Staaten, die die Vollzugsordnung für den Funkdienst ratifiziert haben"
+                },
+                {
+                    "text": "In allen deutschsprachigen Ländern"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "text": "Wo berechtigt das UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI) auch zur Teilnahme am mobilen Seefunkdienst?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Wasserstraßen der Zonen 1 bis 2"
+                },
+                {
+                    "text": "Wasserstraßen der Zonen 2 bis 4"
+                },
+                {
+                    "text": "Wasserstraßen der Zonen 1 bis 4"
+                },
+                {
+                    "text": "Wasserstraßen der Zonen 2 bis 3"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "text": "Wer erteilt das UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Fachstelle der WSV für Verkehrstechniken und die Prüfungsausschüsse des Deutschen Motoryachtverbandes e.V. und des Deutschen Segler-Verbandes e.V."
+                },
+                {
+                    "text": "Bundesnetzagentur (BNetzA) und Fachstelle der WSV für Verkehrstechniken (FVT)"
+                },
+                {
+                    "text": "Zentrale Verwaltungsstelle (ZVST) und Wasser- und Schifffahrtsdirektionen (WSD)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsämter (WSA) und Bundesnetzagentur (BNetzA)]"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "text": "Welches Funkzeugnis berechtigt nicht zur Teilnahme am weltweiten Seenot- und Sicherheitsfunksystem (GMDSS)?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
+                },
+                {
+                    "text": "Beschränkt Gültiges Funkbetriebszeugnis (SRC)"
+                },
+                {
+                    "text": "Allgemeines Funkbetriebszeugnis (LRC)"
+                },
+                {
+                    "text": "Allgemeines Betriebszeugnis für Funker (GOC)]"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "text": "Welches Funkzeugnis berechtigt nicht zur Teilnahme am Binnenschifffahrtsfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Amateurfunkzeugnis"
+                },
+                {
+                    "text": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
+                },
+                {
+                    "text": "Allgemeines Sprechfunkzeugnis für den Seefunkdienst"
+                },
+                {
+                    "text": "Beschränkt gültiges Betriebszeugnis für Funker I (BZ I)]"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "text": "Worauf ist bei der Teilnahme am Binnenschifffahrtsfunk in anderen Ländern zu achten?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Die Bestimmungen im Regionalen Teil des Handbuchs Binnenschifffahrtsfunk sind zu beachten"
+                },
+                {
+                    "text": "Die Bestimmungen der Binnenschifffahrt-Sprechfunkverordnung sind zu beachten"
+                },
+                {
+                    "text": "Die Bestimmungen der EU-Kommission sind zu beachten"
+                },
+                {
+                    "text": "Die Bestimmungen der Binnenschifffahrtsstraßenordnung sind zu beachten"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "text": "Wo findet man grundsätzliche Bestimmungen über den Sprechfunk auf den jeweiligen Bundeswasserstraßen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Schifffahrtspolizeiverordnungen"
+                },
+                {
+                    "text": "Binnenschifffahrtpatentverordnung"
+                },
+                {
+                    "text": "Binnenschifffahrt-Sprechfunkverordnung"
+                },
+                {
+                    "text": "Binnenschiffsuntersuchungsordnung"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "text": "Wo findet man z.B. Angaben über die Ausrüstungspflicht mit Funkanlagen auf Binnenschiffen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Binnenschifffahrtstraßenordnung"
+                },
+                {
+                    "text": "Binnenschifffahrt-Sprechfunkverordnung"
+                },
+                {
+                    "text": "Binnenschifferpatentverordnung"
+                },
+                {
+                    "text": "Schiffssicherheitsverordnung"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "text": "Wo findet man Angaben über die Funkbenutzungspflicht für Fahrzeuge auf bestimmten Binnenschifffahrtsstraßen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Regionale Teile des Handbuchs Binnenschifffahrtsfunk"
+                },
+                {
+                    "text": "Allgemeiner Teil des Handbuchs Binnenschifffahrtsfunk"
+                },
+                {
+                    "text": "Binnenschifffahrt-Sprechfunkverordnung"
+                },
+                {
+                    "text": "Binnenschifferpatentverordnung"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "text": "Das Abhörverbot und das Fernmeldegeheimnis sind geregelt…",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "im Telekommunikationsgesetz (TKG)"
+                },
+                {
+                    "text": "in der Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)"
+                },
+                {
+                    "text": "in der Schiffssicherheitsverordnung (SchSV)"
+                },
+                {
+                    "text": "im Gesetz über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "text": "Was unterliegt dem Fernmeldegeheimnis?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Inhalt des Funkverkehrs und seine näheren Umstände, insbesondere die Tatsache, ob jemand an der Abwicklung des Funkverkehrs beteiligt ist oder war"
+                },
+                {
+                    "text": "Inhalt des Funkverkehrs und seine näheren Umstände, insbesondere konkrete Daten wie z. B. der ATISCode"
+                },
+                {
+                    "text": "Inhalt des Funkverkehrs und seine näheren Umstände, sofern es sich um Nachrichtenaustausch mit einer Revierzentrale handelt"
+                },
+                {
+                    "text": "Inhalt des Funkverkehrs und seine näheren Umstände, sofern es sich um Nachrichtenaustausch im Rahmen des Not-, Dringlichkeits- und Sicherheitsverkehrs handelt"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "text": "Welche Nachrichten dürfen uneingeschränkt aufgenommen und verbreitet werden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Aussendungen, die „An alle Funkstellen“ gerichtet sind"
+                },
+                {
+                    "text": "Aussendungen des Öffentlichen Nachrichtenaustauschs"
+                },
+                {
+                    "text": "Aussendungen im Verkehrskreis Funkverkehr an Bord"
+                },
+                {
+                    "text": "Aussendungen im Binnenschifffahrtsfunk dürfen uneingeschränkt aufgenommen und verbreitet werden"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "text": "Welche Folgen kann die Verletzung des Fernmeldegeheimnisses haben?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Strafrechtliche Verfolgung"
+                },
+                {
+                    "text": "Ordnungswidrigkeitsverfahren"
+                },
+                {
+                    "text": "Schriftliche Verwarnung"
+                },
+                {
+                    "text": "Einzug der Funkanlage"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "text": "Welchen Frequenzbereich nutzt der Binnenschifffahrtsfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Ultrakurzwelle (UKW/VHF)"
+                },
+                {
+                    "text": "Kurzwelle (KW/HF)"
+                },
+                {
+                    "text": "Grenzwelle (GW/MF)"
+                },
+                {
+                    "text": "Langwelle (LW/LF)]"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "text": "Wie breiten sich Ultrakurzwellen aus?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Geradlinig und quasioptisch"
+                },
+                {
+                    "text": "Abhängig von der Tageszeit"
+                },
+                {
+                    "text": "Der Erdkrümmung folgend bis weit hinter den Horizont"
+                },
+                {
+                    "text": "In der Ionosphäre reflektiert"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "text": "Welche Faktoren können die Ausbreitung der Ultrakurzwellen beeinflussen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Hindernisse, z.B. Berge oder hohe Bauwerke"
+                },
+                {
+                    "text": "Niederschläge, z. B. Schnee- oder Regenschauer"
+                },
+                {
+                    "text": "Tag- und Nachtschwankungen"
+                },
+                {
+                    "text": "Kurs und Geschwindigkeit des Schiffes"
+                }
+            ]
+        }
+    ]
+}

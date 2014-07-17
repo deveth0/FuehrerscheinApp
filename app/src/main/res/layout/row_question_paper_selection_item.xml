@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/component_padding_vertical"
+                android:paddingRight="@dimen/listPreferredItemPaddingRight"
+                android:paddingTop="@dimen/component_padding_vertical"
+                android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+                tools:ignore="ContentDescription"
+>
+
+  <TextView
+    android:id="@+id/row_question_paper_selection_item_title"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:layout_centerVertical="true"
+  />
+  <ImageView
+    android:id="@+id/row_question_paper_selection_item_next"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:src="@drawable/ic_action_next_item"
+  />
+  <ImageView
+    android:id="@+id/row_question_paper_selection_item_correct"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_toLeftOf="@id/row_question_paper_selection_item_next"
+    android:src="@drawable/ok"
+  />
+</RelativeLayout>

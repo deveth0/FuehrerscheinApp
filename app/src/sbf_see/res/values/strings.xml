@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">SBF-See</string>
+  <string name="start_text">Herzlich willkommen zum Trainer für den Sportbootführerschein See.</string>
+
+<string name="exam_info_intro">Die Prüfung zum SBF-See besteht aus einem theoretischen (schriftlichen) und einem praktischen
+    Prüfungsteil. Zur ausreichenden Ausführung der einzelnen Aufgaben sind jeweils maximal zwei Versuche erlaubt.</string>
+    <string name="exam_info_theorie_text">In der theoretischen Prüfung müssen ausreichende Kenntnisse in folgenden Themenbereichen nachgewiesen werden:\n\n
+      <li>Seeschifffahrtsrecht\n</li>
+      <li>Seemannschaft\n</li>
+      <li>Wetterkunde\n</li>
+      <li>Umweltschutz\n</li>
+      <li>Wetterkunde\n</li>
+      <li>Navigation\n</li>
+      <li>Fahrzeugführung\n</li>
+      \nDazu muss ein Multiple-Choice-Fragebogen sowie eine Navigationsaufgabe erfüllt werden. Die Navigationsaufgabe wird von dieser App nicht abgedeckt und muss seperat gelernt werden.</string>
+  <string name="exam_info_praxis_text">In der praktischen Prüfung müssen die theoretischen Kenntnisse umgesetzt und angewendet werden.
+    Im Einzelnen werden gefordert:\n\n
+    <li>Manöver Mann-über-Bord (Pflicht)\n</li>
+    <li>Manöver Ablegen (Pflicht)\n</li>
+    <li>Manöver Anlegen (Pflicht)\n</li>
+    <li>Fahren nach Kompass (Pflicht)\n</li>
+    <li>Peilen (einfache Peilung oder Kreuzpeilung) (Pflicht)\n</li>
+    <li>Kursgerechtes Aufstoppen\n</li>
+    <li>Wenden auf engem Raum\n</li>
+    <li>Fahren nach Schifffahrszeichen\n</li>
+    <li>Anlegen einer Rettungsweste\n</li>
+    <li>Manöverschallsignale</li>
+  </string>
+  <string name="exam_info_knoten_text">Für die praktische Prüfung müssen von maximal sieben gestellten Knoten sechs mit ausreichendem Ergebnis ausgeführt und
+      deren Verwendung richtig erklärt werden:\n\n
+      <li>Achtknoten\n</li>
+      <li>Kreuzknoten\n</li>
+      <li>Palstek\n</li>
+      <li>einfacher Schotstek\n</li>
+      <li>doppelter Schotstek\n</li>
+      <li>Stopperstek\n</li>
+      <li>Webleinstek\n</li>
+      <li>Webleinstek auf Slip\n</li>
+      <li>Rundtörn mit zwei halben Schlägen\n</li>
+      <li>Belegen einer Klampe mit Kopfschlag</li>
+    </string>
+  <string name="exam_info_disclaimer">Es besteht kein Anspruch auf Vollständigkeit oder Korrektheit der bereitgestellten Angaben. Weitere Informationen gibt es unter https://www.elwis.de".</string>
+
+</resources>

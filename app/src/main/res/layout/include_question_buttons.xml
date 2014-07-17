@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+    <Button
+      android:id="@+id/question_button_skip"
+      android:layout_width="0px"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/question_submit_skip"
+    />
+    <Button
+      android:id="@+id/question_button_next"
+      android:layout_width="0px"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/question_submit"
+    />
+
+
+</LinearLayout>

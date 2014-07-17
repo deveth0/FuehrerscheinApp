@@ -1,0 +1,69 @@
+{
+  "id": "sbf-binnen-test",
+  "title": "SBF-Binnen Test",
+  "copyright": {
+    "text": "Testfragen",
+    "src": "https://dev-eth0.de"
+  },
+  "questions": [
+    {
+      "id": "t1",
+      "text": "Frage 1?",
+      "answers": [
+        {
+          "correct": true,
+          "text": "Richtig."
+        },
+        {
+          "text": "Falsch."
+        },
+        {
+          "text": "Auch falsch."
+        },
+        {
+          "text": "Erst recht falsch."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "text": "Frage 2 mit einem Bild?",
+      "img": ["basis_5"],
+      "answers": [
+        {
+          "correct": true,
+          "text": "Richtig."
+        },
+        {
+          "text": "Falsch."
+        },
+        {
+          "text": "Auch falsch."
+        },
+        {
+          "text": "Erst recht falsch."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "text": "Frage 3 mit zwei Bildern?",
+      "img": ["basis_23", "basis_23_2"],
+      "answers": [
+        {
+          "correct": true,
+          "text": "Richtig."
+        },
+        {
+          "text": "Falsch."
+        },
+        {
+          "text": "Auch falsch."
+        },
+        {
+          "text": "Erst recht falsch."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="@dimen/listPreferredItemPaddingEnd"
+              android:paddingLeft="@dimen/listPreferredItemPaddingLeft"
+              android:paddingRight="@dimen/listPreferredItemPaddingRight"
+              android:paddingTop="@dimen/listPreferredItemPaddingStart"
+>
+
+
+  <TextView
+    android:id="@+id/row_menu_item_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:drawableRight="@drawable/ic_action_next_item"
+  />
+</LinearLayout>

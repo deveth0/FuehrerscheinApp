@@ -1,0 +1,580 @@
+{
+    "id": "ubi-funkeinrichtungen-und-schiffsfunkstellen",
+    "title": "2. Funkeinrichtungen und Schiffsfunkstellen",
+    "copyright": {
+        "text": "Fachstelle der WSV für Verkehrstechniken",
+        "src": "http://www.fvt.wsv.de/"
+    },
+    "questions": [
+        {
+            "id": "25",
+            "text": "Was ist eine „Schiffsfunkstelle”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Mobile Funkstelle des Binnenschifffahrtsfunks"
+                },
+                {
+                    "text": "Mobile Funkstelle des mobilen Seefunkdienstes"
+                },
+                {
+                    "text": "Ortsfeste Funkstelle des Binnenschifffahrtsfunks"
+                },
+                {
+                    "text": "Ortsfeste Funkstelle des mobilen Seefunkdienstes"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "text": "Was ist eine „Seefunkstelle”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkstelle des Mobilen Seefunkdienstes an Bord eines nicht dauernd verankerten Seefahrzeuges"
+                },
+                {
+                    "text": "Funkstelle des Mobilen Seefunkdienstes, die an Land als Küstenfunkstelle betrieben wird"
+                },
+                {
+                    "text": "Funkstelle des Binnenschifffahrtsfunks, die im Seebereich an Bord eines Seeschiffes betrieben wird"
+                },
+                {
+                    "text": "Funkstelle des Mobilen Seefunkdienstes, die im Verkehrskreis Nautische Information betrieben wird"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "text": "Wer darf eine Schiffsfunkstelle bedienen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Inhaber eines gültigen Sprechfunkzeugnisses für den Binnenschifffahrtsfunk (UBI) oder eines gleichwertigen Zeugnisses"
+                },
+                {
+                    "text": "Personen, die ohne Aufsicht eines Funkzeugnisinhabers am Funkverkehr teilnehmen, sofern sie älter als 16 Jahre sind"
+                },
+                {
+                    "text": "Nur der Schiffsführer, sofern er über ein gültiges Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI) verfügt"
+                },
+                {
+                    "text": "Personen, die über einen gültigen Sportbootführerschein-Binnen und über die Erlaubnis des Schiffsführers verfügen"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "text": "Wer stellt in Deutschland die Frequenzzuteilungsurkunde für eine Schiffsfunkstelle aus?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Bundesnetzagentur (BNetzA)"
+                },
+                {
+                    "text": "Fachstelle der WSV für Verkehrstechniken (FVT)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsdirektion (WSD)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsamt (WSA)]"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "text": "Der Betrieb einer Schiffsfunkstelle ohne Frequenzzuteilung verstößt gegen Vorschriften...",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "des Telekommunikationsgesetzes (TKG)"
+                },
+                {
+                    "text": "der Binnenschifffahrtstraßenordnung (BinSchStrO)"
+                },
+                {
+                    "text": "des Gesetzes über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)"
+                },
+                {
+                    "text": "der Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "text": "Die Bedienung einer Schiffsfunkstelle ohne Erlaubnis (UKW-Sprechfunkzeugnis) verstößt gegen Vorschriften…",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "der Binnenschifffahrt-Sprechfunkverordnung (BinSchSprFunkV)"
+                },
+                {
+                    "text": "der Binnenschifffahrtstraßenordnung (BinSchStrO)"
+                },
+                {
+                    "text": "des Gesetzes über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)"
+                },
+                {
+                    "text": "des Telekommunikationsgesetzes (TKG)]"
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "text": "Welches amtliche Dokument für eine Schiffsfunkstelle muss sich an Bord befinden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Frequenzzuteilungsurkunde"
+                },
+                {
+                    "text": "UKW-Sprechfunkzeugnis"
+                },
+                {
+                    "text": "UKW-Betriebszeugnis"
+                },
+                {
+                    "text": "Zulassungsurkunde"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "text": "Die telekommunikationsrechtliche Überprüfung einer Schiffsfunkstelle wird durchgeführt von...",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Bundesnetzagentur (BNetzA)"
+                },
+                {
+                    "text": "Fachstelle der WSV für Verkehrstechniken (FVT)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsdirektion (WSD)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsamt (WSA)]"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "text": "Wer ist bei Eignerwechsel eines Binnenschiffes in Bezug auf die Schiffsfunkstelle zu benachrichtigen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Bundesnetzagentur (BNetzA)"
+                },
+                {
+                    "text": "Fachstelle der WSV für Verkehrstechniken (FVT)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsdirektion (WSD)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsamt (WSA)"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "text": "Wer ist bei technischen Änderungen an einer Schiffsfunkstelle, z.B. beim Austausch der vorhandenen Funkgeräte durch andere Gerätetypen schriftlich zu informieren?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Bundesnetzagentur (BNetzA)"
+                },
+                {
+                    "text": "Fachstelle der WSV für Verkehrstechniken (FVT)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsdirektion (WSD)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsamt (WSA)]"
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "text": "Wer kann die Einstellung des Betriebes einer Schiffsfunkstelle anordnen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Bundesnetzagentur (BNetzA)"
+                },
+                {
+                    "text": "Fachstelle der WSV für Verkehrstechniken (FVT)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsdirektion (WSD)"
+                },
+                {
+                    "text": "Wasser- und Schifffahrtsamt (WSA)]"
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "text": "Welche Teile des Handbuchs Binnenschifffahrtsfunk müssen bei einer Schiffsfunkstelle mitgeführt werden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Allgemeiner Teil sowie Regionale Teile für die Strecken, in denen die Schiffsfunkstelle am Binnenschifffahrtsfunk teilnimmt"
+                },
+                {
+                    "text": "Regionale Teile für die Strecke, in der sich die Schiffsfunkstelle gerade befindet"
+                },
+                {
+                    "text": "Regionale Teile für alle europäischen Wasserstraßen"
+                },
+                {
+                    "text": "Allgemeiner Teil sowie Regionale Teile des Landes, in dem die Schiffsfunkstelle angemeldet wurde"
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "text": "Woraus besteht das Rufzeichen für eine deutsche Schiffsfunkstelle?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Zwei Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von vier Ziffern"
+                },
+                {
+                    "text": "Vier Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von vier Ziffern"
+                },
+                {
+                    "text": "Zwei Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von zwei Ziffern"
+                },
+                {
+                    "text": "Vier Buchstaben der Rufzeichenreihe für Deutschland, gefolgt von zwei Ziffern"
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "text": "Welches der nachfolgend angegebenen Rufzeichen kennzeichnet eine Schiffsfunkstelle?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "DA 5005"
+                },
+                {
+                    "text": "DABC 55"
+                },
+                {
+                    "text": "DA5 0BC"
+                },
+                {
+                    "text": "DA 505B"
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "text": "Was bedeutet „ATIS”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Automatisches Senderidentifizierungssystem"
+                },
+                {
+                    "text": "Automatisches Schiffsidentifizierungssystem"
+                },
+                {
+                    "text": "Automatisches Verkehrsinformationssystem"
+                },
+                {
+                    "text": "Automatisches Transponderabfragesystem"
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "text": "Welchem Zweck dient die Aussendung eines ATIS-Codes?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Identifizierung einer Schiffsfunkstelle"
+                },
+                {
+                    "text": "Identifizierung einer Seefunkstelle"
+                },
+                {
+                    "text": "Identifizierung des Bedieners der Schiffsfunkstelle"
+                },
+                {
+                    "text": "Identifizierung des Verkehrskreises"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "text": "Wie setzt sich der ATIS-Code zusammen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Aus 10 Ziffern: der Ziffer 9, der dreistelligen Seefunkkennzahl (MID) und 6 Ziffern"
+                },
+                {
+                    "text": "Aus 10 Ziffern: der dreistelligen Seefunkkennzahl (MID), 6 Ziffern"
+                },
+                {
+                    "text": "Aus 10 Ziffern: der Ziffer 9, zwei Nullen, der dreistelligen Seefunkkennzahl (MID) und 4 Ziffern"
+                },
+                {
+                    "text": "Aus 10 Ziffern: zwei Nullen, der dreistelligen Seefunkkennzahl (MID) und 5 Ziffern"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "text": "Wann wird das ATIS-Signal ausgesendet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Nach dem Loslassen der Sprechtaste"
+                },
+                {
+                    "text": "Beim Drücken der Sprechtaste"
+                },
+                {
+                    "text": "Alle 10 Minuten"
+                },
+                {
+                    "text": "Bei Kanalwechsel"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "text": "Welchen ATIS-Code sendet eine tragbare Funkanlage aus?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "ATIS-Code der Schiffsfunkstelle, zu der sie gehört"
+                },
+                {
+                    "text": "ATIS-Code, der ihr gesondert mit der Frequenzzuteilung zugewiesen wurde"
+                },
+                {
+                    "text": "ATIS-Code der ortsfesten Funkstelle"
+                },
+                {
+                    "text": "ATIS-Code der Schiffsfunkstelle und die Gerätenummer"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "text": "Was ist ein „ATIS-Killer”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Zusatzeinrichtung in der Funkanlage zur akustischen Unterdrückung des empfangenen ATIS-Signals"
+                },
+                {
+                    "text": "Zusatzeinrichtung in der Funkanlage zur optischen Unterdrückung des empfangenen ATIS-Signals"
+                },
+                {
+                    "text": "Zusatzeinrichtung in der Funkanlage zur Unterdrückung der versehentlichen Aussendung des ATISSignals"
+                },
+                {
+                    "text": "Zusatzeinrichtung in der Funkanlage zur Unterdrückung der Aussendung des ATIS-Signals"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "text": "Was versteht man unter „AIS“?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Automatisches Schiffsidentifizierungs- und Überwachungssystem, das statische, dynamische und reisebezogene Informationen auf UKW überträgt"
+                },
+                {
+                    "text": "Allgemeines Informationssystem für die Binnenschifffahrt"
+                },
+                {
+                    "text": "Automatische Aussendung der Kennung eines Binnenschiffes beim Loslassen der Sprechtaste"
+                },
+                {
+                    "text": "Identifizierung eines Schiffes mit Hilfe von Radarpeilungen und deren Weitergabe an die Schifffahrt zur Kollisionsverhütung"
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "text": "Welche Informationen werden bei AIS automatisch ausgetauscht?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Statische Informationen (z.B. Schiffsname), dynamische Informationen (z. B. Kurs) und reisebezogene Informationen (z. B. Bestimmungsort)"
+                },
+                {
+                    "text": "Statische Informationen (z. B. Schiffsname), notfallbezogene Informationen (z. B. Notalarme) und reisebezogene Informationen (z. B. Bestimmungsort)"
+                },
+                {
+                    "text": "Statische Informationen (z. B. Schiffsname), reisebezogene Informationen (z. B. Bestimmungsort) und dringende Informationen (z. B. Treibstoffmangel)"
+                },
+                {
+                    "text": "Statische Informationen (z. B. Schiffsname), dynamische Informationen (z. B. Kurs) und notfallbezogene Informationen (z. B. Notalarme)"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "text": "Was ist beim Betrieb einer Amateurfunkstelle an Bord eines Binnenschiffes, das mit einer Schiffsfunkstelle ausgerüstet ist, zu beachten?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Die Amateurfunkstelle darf nur mit Zustimmung des Schiffsführers betrieben werden und keine schädlichen Störungen bei der Schiffsfunkstelle oder bei sonstigen nautischen und technischen Einrichtungen des Fahrzeugs verursachen."
+                },
+                {
+                    "text": "Die Amateurfunkstelle darf nur mit Zustimmung des Schiffsführers und zur Vermeidung von schädlichen Störungen nur mit einer Leistung von bis zu 5 Watt betrieben werden"
+                },
+                {
+                    "text": "Die Amateurfunkstelle darf nur mit Zustimmung der Revierzentrale betrieben werden und keine schädlichen Störungen bei der Schiffsfunkstelle oder bei sonstigen nautischen und technischen Einrichtungen des Fahrzeugs verursachen"
+                },
+                {
+                    "text": "Die Amateurfunkstelle darf nur nach Eintragung in die Frequenzzuteilungsurkunde der Schiffsfunkstelle betrieben werden und keine schädlichen Störungen bei der Schiffsfunkstelle oder bei sonstigen nautischen und technischen Einrichtungen des Fahrzeugs verursachen"
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "text": "Was bedeutet die Angabe „Betriebsspannung 10,8 – 14,6 V=“ in der Bedienungsanleitung für eine Funkanlage?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Es ist eine Gleichspannung zwischen 10,8 und 14,6 Volt für den Betrieb erforderlich"
+                },
+                {
+                    "text": "Es ist eine Wechselspannung zwischen 10,8 und 14,6 Volt für den Betrieb erforderlich"
+                },
+                {
+                    "text": "Es ist eine Gleichspannung von 12,7 Volt (Mittelwert zwischen 10,8 und 14,6 Volt) für den Betrieb erforderlich"
+                },
+                {
+                    "text": "Es ist eine Wechselspannung von 12,7 Volt (Mittelwert zwischen 10,8 und 14,6 Volt) für den Betrieb erforderlich"
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "text": "Was ist beim Kauf eines UKW-Sprechfunkgerätes für den Binnenschifffahrtsfunk zu beachten?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Das Funkgerät muss zugelassen oder für die Teilnahme am Binnenschifffahrtsfunk in Verkehr gebracht worden sein"
+                },
+                {
+                    "text": "Das Funkgerät muss funktionsfähig und für die Teilnahme am Binnenschifffahrtsfunk TÜV-geprüft sein"
+                },
+                {
+                    "text": "Das Funkgerät muss für die Teilnahme am Binnenschifffahrtsfunk eine ATIS-Schnittstelle besitzen und Wetterberichte empfangen können"
+                },
+                {
+                    "text": "Das Funkgerät muss gemäß der Binnenschifffahrt-Sprechfunkverordnung für die Teilnahme am Binnenschifffahrtsfunk zugelassen sein"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "text": "Je höher die Antenne angebracht ist, desto…",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "größer ist die Reichweite"
+                },
+                {
+                    "text": "größer ist die erforderliche Sendeleistung"
+                },
+                {
+                    "text": "wetterunabhängiger ist der Funkverkehr"
+                },
+                {
+                    "text": "größer wird die Gefährdung von Personen in elektromagnetischen Feldern"
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "text": "Bei einer Beschädigung der äußeren Isolierung (Mantel) des Antennenkabels sollte das Antennenkabel…",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "umgehend erneuert werden"
+                },
+                {
+                    "text": "bei Gelegenheit erneuert werden"
+                },
+                {
+                    "text": "umgehend hilfsweise durch ein Stromkabel ersetzt werden"
+                },
+                {
+                    "text": "bei Gelegenheit gegen eindringende Feuchtigkeit gesichert werden"
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "text": "Eine Schiffsfunkstelle empfängt auf allen UKW-Kanälen nur starkes Rauschen. Was könnte die mögliche Ursache für die Störung sein?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Die Antenne oder das Antennenkabel ist möglicherweise beschädigt"
+                },
+                {
+                    "text": "Der Empfang wird durch atmosphärische Störungen beeinträchtigt"
+                },
+                {
+                    "text": "Eine unbeabsichtigte Aussendung einer anderen Schiffsfunkstelle blockiert die UKW-Kanäle"
+                },
+                {
+                    "text": "Die Funkantenne wurde in zu geringer Nähe zur Radarantenne angebracht"
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "text": "Worauf ist beim Austausch einer defekten UKW-Antenne bei einer Schiffsfunkstelle durch eine Ersatzantenne zu achten?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Die Ersatzantenne muss für den Frequenzbereich des Binnenschifffahrtsfunks ausgelegt sein"
+                },
+                {
+                    "text": "Die Ersatzantenne muss wettergeschützt angebracht werden"
+                },
+                {
+                    "text": "Die Ersatzantenne muss außerhalb des Abdeckungsbereichs des Radars angebracht werden"
+                },
+                {
+                    "text": "Die Ersatzantenne muss am höchsten Punkt des Fahrzeugs angebracht werden"
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "text": "Wozu dient am UKW-Gerät die Rauschsperre (Squelch)?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Die Wiedergabe des Empfängers wird nur bei einem brauchbaren Empfangssignal aktiviert"
+                },
+                {
+                    "text": "Das Rauschen kann stufenlos auf einen angenehmen Wert eingestellt werden"
+                },
+                {
+                    "text": "Die Rauschsperre verbessert die Wiedergabe von schwachen Empfangssignalen"
+                },
+                {
+                    "text": "Die Wiedergabe des Empfängers wird nur beim Empfang von Notsignalen aktiviert"
+                }
+            ]
+        }
+    ]
+}

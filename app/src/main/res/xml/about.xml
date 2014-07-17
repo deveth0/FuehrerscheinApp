@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <PreferenceCategory android:title="@string/about_title" >
+    <Preference
+      android:key="about_version"
+      android:title="@string/about_version_title"
+      android:layout="@layout/row_preference"
+    />
+    <Preference
+      android:key="about_author"
+      android:layout="@layout/row_preference"
+      android:summary="Alexander Muthmann"
+      android:title="@string/about_author_title" />
+    <Preference
+      android:key="about_author_twitter"
+      android:summary="\@deveth0"
+      android:layout="@layout/row_preference"
+      android:title="@string/about_author_twitter_title" />
+      <Preference
+        android:key="about_license"
+        android:summary="@string/about_license_summary"
+        android:layout="@layout/row_preference"
+      android:title="@string/about_license" />
+      <Preference
+        android:key="about_external_copyright"
+        android:summary="@string/about_external_copyright_summary"
+        android:layout="@layout/row_preference"
+      android:title="@string/about_external_copyright"/>
+  </PreferenceCategory>
+
+</PreferenceScreen>

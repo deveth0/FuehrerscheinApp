@@ -1,0 +1,98 @@
+{
+    "id": "2_ergaenzung_segeln",
+    "title": "Ergänzungsbogen Segeln",
+    "requiredAnswers": 5,
+    "description":"Für die kombinierte Prüfung des Führerscheins unter Motor und Segel wird zusätzlich ein Fragebogen mit 7 spezifischen Fragen Segeln abgefragt.\nHier müssen mindestens 5 Fragen in 15 Minuten korrekt beantwortet werden.",
+    "papers":[
+{
+"id": "E1",
+"title":"Fragebogen E1",
+"questions": [
+"254", "264", "269", "279", "284", "294", "299"]
+},
+{
+"id": "E2",
+"title":"Fragebogen E2",
+"questions": [
+"255", "265", "270", "280", "285", "295", "300"]
+},
+{
+"id": "E3",
+"title":"Fragebogen E3",
+"questions": [
+"256", "267", "271", "282", "286", "297", "300"]
+},
+{
+"id": "E4",
+"title":"Fragebogen E4",
+"questions": [
+"257", "259", "266", "272", "281", "287", "296"]
+},
+{
+"id": "E5",
+"title":"Fragebogen E5",
+"questions": [
+"258", "263", "273", "278", "288", "293", "298"]
+},
+{
+"id": "E6",
+"title":"Fragebogen E6",
+"questions": [
+"254", "259", "269", "274", "284", "289", "299"]
+},
+{
+"id": "E7",
+"title":"Fragebogen E7",
+"questions": [
+"255", "260", "270", "275", "285", "290", "300"]
+},
+{
+"id": "E8",
+"title":"Fragebogen E8",
+"questions": [
+"258", "261", "271", "276", "280", "289", "291"]
+},
+{
+"id": "E9",
+"title":"Fragebogen E9",
+"questions": [
+"256", "262", "277", "280", "292", "296", "300"]
+},
+{
+"id": "E10",
+"title":"Fragebogen E10",
+"questions": [
+"255", "260", "263", "278", "284", "293", "297"]
+},
+{
+"id": "E11",
+"title":"Fragebogen E11",
+"questions": [
+"258", "264", "269", "279", "283", "294", "299"]
+},
+{
+"id": "E12",
+"title":"Fragebogen E12",
+"questions": [
+"257", "259", "265", "276", "280", "283", "295"]
+},
+{
+"id": "E13",
+"title":"Fragebogen E13",
+"questions": [
+"254", "260", "266", "271", "281", "296", "298"]
+},
+{
+"id": "E14",
+"title":"Fragebogen E14",
+"questions": [
+"258", "260", "267", "273", "278", "282", "297"]
+},
+{
+"id": "E15",
+"title":"Fragebogen E15",
+"questions": [
+"255", "259", "268", "276", "283", "286", "298"]
+}
+    ]
+}

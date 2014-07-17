@@ -1,0 +1,485 @@
+{
+    "id": "ubi-verkehrskreise",
+    "title": "3. Verkehrskreise",
+    "copyright": {
+        "text": "Fachstelle der WSV für Verkehrstechniken",
+        "src": "http://www.fvt.wsv.de/"
+    },
+    "questions": [
+        {
+            "id": "55",
+            "text": "Wozu dient ein \"Verkehrskreis” im Binnenschifffahrtsfunk?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Zuordnung von Sprechfunk-Kanälen für bestimmte Zwecke"
+                },
+                {
+                    "text": "Zuordnung von Sprechfunk-Kanälen für bestimmte Schiffsfunkstellen"
+                },
+                {
+                    "text": "Zuordnung der Rangfolge von bestimmten Arten von Funkgesprächen"
+                },
+                {
+                    "text": "Zuordnung von Sprechfunk-Rufzeichen für bestimmte Funkstellen"
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "text": "Welche Verkehrskreise werden im Binnenschifffahrtsfunk betrieben?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Schiff – Schiff, Nautische Information, Schiff – Hafenbehörde, Funkverkehr an Bord"
+                },
+                {
+                    "text": "Schiff – Schiff, Schiff - Verkehrszentrale, Schiff – Hafenbehörde, Funkverkehr an Bord"
+                },
+                {
+                    "text": "Schiff – Schiff, Nautische Information, Schiff – Hafenbehörde, Schiff – Verkehrsposten"
+                },
+                {
+                    "text": "Schiff – Schiff, Nautische Information, Schiff – Hafenbehörde, Schiff - Landfunkstelle"
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "text": "Wo findet man Angaben über die Verkehrskreise des Binnenschifffahrtsfunks?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Binnenschifffahrt-Sprechfunkverordnung"
+                },
+                {
+                    "text": "Regionaler Teil Deutschland des Handbuchs Binnenschifffahrtsfunk"
+                },
+                {
+                    "text": "Gesetz über Funkanlagen und Telekommunikationsendeinrichtungen (FTEG)"
+                },
+                {
+                    "text": "Binnenschifffahrtsstraßenordnung"
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "text": "Die Verkehrskreise \"Nautische Information” und \"Schiff – Hafenbehörde” werden...",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "nicht auf allen Bundeswasserstraßen angeboten"
+                },
+                {
+                    "text": "auf allen Bundeswasserstraßen angeboten"
+                },
+                {
+                    "text": "in Häfen und ausgewiesenen Liegestellen angeboten"
+                },
+                {
+                    "text": "auf dem Rhein, auf der Donau und auf der Mosel angeboten"
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "text": "Wozu dient der Verkehrskreis \"Schiff – Schiff”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen"
+                },
+                {
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen und Funkstellen der Behörden, die für die Betriebsdienste auf Binnenwasserstraßen zuständig sind"
+                },
+                {
+                    "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz"
+                },
+                {
+                    "text": "Funkverkehr zwischen Handfunkgeräten auf einem Schiff"
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "text": "Welche Nachrichten werden im Verkehrskreis \"Schiff – Schiff” übermittelt?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Nachrichten, die sich auf den Schutz von Personen oder auf die Fahrt oder auf die Sicherheit von Schiffen beziehen"
+                },
+                {
+                    "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung zwischen Schiffsfunkstellen und Landfunkstellen"
+                },
+                {
+                    "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen"
+                },
+                {
+                    "text": "Nachrichten über schiffsbetriebliche Angelegenheiten, die sich auf die Sicherheit von Schiffen beziehen"
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "text": "Welche Funkstelle ist nicht dem Verkehrskreis \"Schiff-Schiff\" zugeordnet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Duisburg Hafen"
+                },
+                {
+                    "text": "Segelyacht Robbe DA 5005"
+                },
+                {
+                    "text": "Spey Fähre"
+                },
+                {
+                    "text": "MS Mainz"
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "text": "Welche Funkstelle kann am Verkehrskreis \"Schiff-Schiff\" teilnehmen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Segelyacht Robbe DA 5005"
+                },
+                {
+                    "text": "Lauenburg Schleuse"
+                },
+                {
+                    "text": "Duisburg Hafen"
+                },
+                {
+                    "text": "Minden Revierzentrale"
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "text": "Wozu dient der Verkehrskreis \"Nautische Information\"?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen und Funkstellen der Behörden, denen der Betrieb der Bundeswasserstraßen obliegt"
+                },
+                {
+                    "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz"
+                },
+                {
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen"
+                },
+                {
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen und Landfunkstellen von Hafenbehörden.]"
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "text": "Welche Nachrichten werden im Verkehrskreis \"Nautische Information” übermittelt?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung"
+                },
+                {
+                    "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen"
+                },
+                {
+                    "text": "Nachrichten, die sich auf Funkverkehr zwischen Schiffsfunkstellen beziehen"
+                },
+                {
+                    "text": "Nachrichten über schiffsbetriebliche Angelegenheiten"
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "text": "Wodurch kann bei einem nicht funkausrüstungspflichtigen Fahrzeug die ununterbrochene Teilnahme, am Verkehrskreis \"Nautische Information” sichergestellt werden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Zusätzliche UKW-Funkanlage für den Binnenschifffahrtsfunk"
+                },
+                {
+                    "text": "Zweikanalüberwachung (Dual Watch)"
+                },
+                {
+                    "text": "Ununterbrochene Empfangsbereitschaft auf Kanal 10"
+                },
+                {
+                    "text": "Einschalten des Kanals der Funkstelle der zuständigen Hafenbehörde"
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "text": "Welche Funkstelle ist nicht dem Verkehrskreis \"Nautische Information\" zugeordnet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Neuss Hafen"
+                },
+                {
+                    "text": "Iffezheim Schleuse"
+                },
+                {
+                    "text": "Gerstheim Ecluse"
+                },
+                {
+                    "text": "Oberwesel Revierzentrale"
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "text": "Welche Funkstelle ist dem Verkehrskreis \"Nautische Information\" zugeordnet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Iffezheim Schleuse"
+                },
+                {
+                    "text": "Neuss Hafen"
+                },
+                {
+                    "text": "Diffenébrücke Mannheim"
+                },
+                {
+                    "text": "Mannheim Hafenschleuse"
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "text": "Wozu dient der Verkehrskreis \"Schiff – Hafenbehörde”?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen und Landfunkstellen von Hafenbehörden"
+                },
+                {
+                    "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz"
+                },
+                {
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen in Häfen"
+                },
+                {
+                    "text": "Funkverkehr an Bord eines Schiffes oder innerhalb einer Gruppe von Fahrzeugen, die geschleppt oder geschoben werden"
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "text": "Welche Nachrichten werden im Verkehrskreis \"Schiff – Hafenbehörde” übermittelt?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen"
+                },
+                {
+                    "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung"
+                },
+                {
+                    "text": "Nachrichten, die sich auf Funkverkehr zwischen Schiffsfunkstellen beziehen"
+                },
+                {
+                    "text": "Nachrichten über schiffsbetriebliche Angelegenheiten."
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "text": "Welchem Verkehrskreis ist die Landfunkstelle Diffenébrücke Mannheim zugeordnet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Schiff – Hafenbehörde"
+                },
+                {
+                    "text": "Schiff – Schiff"
+                },
+                {
+                    "text": "Nautische Information"
+                },
+                {
+                    "text": "Funkverkehr an Bord"
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "text": "Welche Funkstelle ist nicht dem Verkehrskreis \"Schiff-Hafenbehörde\" zugeordnet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Gerstheim Ecluse"
+                },
+                {
+                    "text": "Mannheim Hafenschleuse"
+                },
+                {
+                    "text": "Segelyacht Robbe DA 5005"
+                },
+                {
+                    "text": "Duisburg Hafen"
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "text": "Welche Funkstelle ist dem Verkehrskreis \"Schiff-Hafenbehörde\" zugeordnet?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Duisburg Hafen"
+                },
+                {
+                    "text": "Gerstheim Ecluse"
+                },
+                {
+                    "text": "Rothensee Hebewerk"
+                },
+                {
+                    "text": "Lauenburg Schleuse"
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "text": "Wozu dient der Verkehrskreis \"Funkverkehr an Bord\"?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkverkehr an Bord eines Schiffes oder innerhalb einer Gruppe von Fahrzeugen, die geschleppt oder geschoben werden"
+                },
+                {
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen und Landfunkstellen von Hafenbehörden"
+                },
+                {
+                    "text": "Funkverkehr von Schiffsfunkstellen über Landfunkstellen mit dem öffentlichen Telekommunikationsnetz"
+                },
+                {
+                    "text": "Funkverkehr zwischen Schiffsfunkstellen in Häfen"
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "text": "Welche Nachrichten werden im Verkehrskreis \"Funkverkehr an Bord\" übermittelt?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Nachrichten über schiffsbetriebliche Angelegenheiten sowie bei Anweisungen für das Arbeiten mit Leinen und für das Ankern"
+                },
+                {
+                    "text": "Nachrichten über die Zuweisung von Liegeplätzen oder über die Fahrt in den Häfen"
+                },
+                {
+                    "text": "Nachrichten über den Zustand der Wasserstraßen, über Verkehrsberatung und zur Verkehrslenkung zwischen Schiffsfunkstellen und Landfunkstellen"
+                },
+                {
+                    "text": "Nachrichten, die sich auf den Schutz von Personen und auf die Fahrt oder auf die Sicherheit von Schiffen beziehen"
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "text": "Welche UKW-Kanäle dürfen im Verkehrskreis \"Funkverkehr an Bord” benutzt werden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "15 und 17"
+                },
+                {
+                    "text": "72 und 77"
+                },
+                {
+                    "text": "06 und 16"
+                },
+                {
+                    "text": "18 und 22"
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "text": "In welchem Verkehrskreis dürfen tragbare Funkanlagen in Deutschland benutzt werden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Funkverkehr an Bord"
+                },
+                {
+                    "text": "Schiff - Hafenbehörde"
+                },
+                {
+                    "text": "Nautische Informationen"
+                },
+                {
+                    "text": "Schiff - Schiff"
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "text": "Welche Fahrzeuge / Schiffe mit Schiffsfunkstellen dürfen nicht am Verkehrskreis \"Funkverkehr an Bord” teilnehmen?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Kleinfahrzeuge"
+                },
+                {
+                    "text": "Schlepp- und Schubschiffe"
+                },
+                {
+                    "text": "Behördenfahrzeuge"
+                },
+                {
+                    "text": "Fahrgastschiffe"
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "text": "Welche Kennung müssen Schiffsfunkstellen in den Verkehrskreisen \"Schiff - Schiff\", \"Nautische Information\" und \"Schiff - Hafenbehörde\" im Sprechfunkverkehr verwenden?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Schiffsname"
+                },
+                {
+                    "text": "ATIS-Kennung"
+                },
+                {
+                    "text": "Rufnummer im Seefunkdienst (MMSI)"
+                },
+                {
+                    "text": "Heimathafen"
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "text": "In welchen Verkehrskreisen müssen Schiffsfunkstellen, außer auf Kleinfahrzeugen, während der Fahrt empfangsbereit sein?",
+            "answers": [
+                {
+                    "correct": true,
+                    "text": "Mindestens in zwei der Verkehrskreise Schiff - Schiff, Nautische Information oder Schiff - Hafenbehörde"
+                },
+                {
+                    "text": "Mindestens in drei der Verkehrskreise Schiff - Schiff, Nautische Information, Funkverkehr an Bord oder Schiff - Hafenbehörde"
+                },
+                {
+                    "text": "Mindestens in einem der Verkehrskreise Schiff - Schiff, Nautische Information oder Schiff - Hafenbehörde"
+                },
+                {
+                    "text": "Mindestens abwechselnd in einem der Verkehrskreise Schiff - Schiff, Nautische Information, Funkverkehr an Bord oder Schiff - Hafenbehörde"
+                }
+            ]
+        }
+    ]
+}

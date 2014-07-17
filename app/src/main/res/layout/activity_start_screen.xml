@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              tools:ignore="MergeRootFrame"
+>
+
+  <fragment
+    android:id="@+id/start_screen_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    class="de.dev.eth0.fuehrerschein.ui.fragments.StartScreenMainFragment" />
+
+  <fragment
+    android:id="@+id/start_screen_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    class="de.dev.eth0.fuehrerschein.ui.fragments.StartScreenListFragment" />
+
+
+</LinearLayout>

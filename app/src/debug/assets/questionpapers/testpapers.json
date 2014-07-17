@@ -1,0 +1,15 @@
+{
+	"id": "t_papers",
+    "title": "Test",
+    "requiredAnswers": 2,
+	"description": "Ipsum lorem foobar",
+    "papers":[
+    {
+        "id": "T1",
+        "title":"Test Fragebogen 1",
+        "questions": [
+        "t1", "t2", "t3" ]
+    }
+    ]
+}
+

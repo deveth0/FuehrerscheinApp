@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="de.dev.eth0.fuehrerschein" >
+  <application
+    android:name="de.dev.eth0.fuehrerschein.FuehrerscheinApplication"
+    android:allowBackup="true"
+    android:icon="@drawable/ic_launcher"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme" >
+    <activity
+      android:name="de.dev.eth0.fuehrerschein.ui.StartScreenActivity"
+      android:label="@string/app_name" >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity
+      android:name="de.dev.eth0.fuehrerschein.ui.QuestionActivity"
+      android:screenOrientation="behind" />
+      <activity
+        android:name="de.dev.eth0.fuehrerschein.ui.StatisticsActivity"
+      android:label="@string/statistics_title"
+      android:screenOrientation="behind" />
+      <activity
+        android:name="de.dev.eth0.fuehrerschein.ui.ExamInfoActivity"
+        android:label="@string/exam_info_title"
+        android:screenOrientation="behind" />
+      <activity
+        android:name="de.dev.eth0.fuehrerschein.ui.QuestionPaperSelectionActivity"
+        android:label="@string/question_paper_selection_title"
+        android:screenOrientation="behind" />
+      <activity
+        android:name="de.dev.eth0.fuehrerschein.ui.QuestionPaperActivity"
+        android:screenOrientation="behind" />
+      <activity
+        android:name="de.dev.eth0.fuehrerschein.ui.QuestionPaperResultActivity"
+        android:screenOrientation="behind" />
+      <activity
+        android:name="de.dev.eth0.fuehrerschein.ui.AboutActivity"
+        android:label="@string/about_title"
+        android:screenOrientation="behind" />
+      <activity
+        android:name="de.dev.eth0.fuehrerschein.ui.SettingsActivity"
+      android:label="@string/settings_title"
+      android:screenOrientation="behind" />
+  </application>
+
+</manifest>

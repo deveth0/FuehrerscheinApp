@@ -7,7 +7,8 @@ Public repository for the following android-apps:
 It does not neccessarily contain the last developement status but is updated as often as possible.
 
 ###Copyright
-The application is distributed under the Apache License v2.0. I don't have any copyright for the questions & questionpapers used in the application and can't distribute them.
+The application is distributed under the Apache License v2.0. 
+The questions and questionpapers are not included in this license. Their copyright is noted down in the files.
 
 ###Acknowledgements
 The application uses several external libraries, which are referenced in the build.gradle file.

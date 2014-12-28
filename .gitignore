@@ -24,4 +24,7 @@ proguard/
 
 # Questions and quesitonpapers
 *.json
-/.nb-gradle/private/
+
+# Custom stuff
+.nb-gradle*
+private/

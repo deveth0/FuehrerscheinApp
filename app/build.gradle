@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'checkstyle'
 
 dependencies {
-  compile 'com.android.support:support-v4:21.0.+'
-  compile 'com.android.support:appcompat-v7:21.0.+'
+  compile 'com.android.support:support-v4:21.0.2'
+  compile 'com.android.support:appcompat-v7:21.0.2'
   compile 'com.fasterxml.jackson.core:jackson-core:2.4.1'
   compile  'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
   compile 'com.fasterxml.jackson.core:jackson-databind:2.4.1.1'

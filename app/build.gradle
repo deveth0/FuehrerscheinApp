@@ -1,12 +1,12 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 apply plugin: 'checkstyle'
 
 dependencies {
-  compile 'com.android.support:appcompat-v7:19.1.0'
+  compile 'com.android.support:support-v4:21.0.+'
+  compile 'com.android.support:appcompat-v7:21.0.+'
   compile 'com.fasterxml.jackson.core:jackson-core:2.4.1'
   compile  'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
   compile 'com.fasterxml.jackson.core:jackson-databind:2.4.1.1'
-  compile 'com.android.support:support-v4:19.1.0'
   compile project(':libraries:android-support-v4-preferencefragment')
   compile fileTree(dir: 'libs', include: ['*.jar'])
   androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.2.1'
@@ -14,27 +14,27 @@ dependencies {
 }
 
 android {
-  compileSdkVersion 19
-  buildToolsVersion "19.1.0"
-
+  compileSdkVersion 21
+  buildToolsVersion "21.1.2"
+  
   productFlavors {
     sbf_binnen {
-      packageName "de.dev.eth0.fuehrerschein.sbf_binnen"
+      applicationId "de.dev.eth0.fuehrerschein.sbf_binnen"
       versionName "SBF-Binnen 1.5"
     }
     sbf_see {
-      packageName "de.dev.eth0.fuehrerschein.sbf_see"
+      applicationId "de.dev.eth0.fuehrerschein.sbf_see"
       versionName "SBF-See 1.2"
     }
     sprechfunk {
-      packageName "de.dev.eth0.fuehrerschein.sprechfunk"
+      applicationId "de.dev.eth0.fuehrerschein.sprechfunk"
       versionName "Sprechfunk 0.5"
     }
   }
 
   defaultConfig {
     minSdkVersion 10
-    targetSdkVersion 19
+    targetSdkVersion 21
     versionCode 7
     testInstrumentationRunner "android.test.InstrumentationTestRunner"
   }
@@ -68,12 +68,12 @@ android {
 
   buildTypes {
     release {
-      runProguard true
+      minifyEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
       //signingConfig signingConfigs.releaseSigning
     }
     debug  {
-      packageNameSuffix ".debug"
+      applicationIdSuffix ".debug"
       versionNameSuffix "-DEBUG"
     }
   }

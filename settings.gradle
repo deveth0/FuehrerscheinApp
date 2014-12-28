@@ -1,1 +1,3 @@
 include ':app', ':libraries:android-support-v4-preferencefragment'
+
+project(":app").name = "Fuehrerschein Application"

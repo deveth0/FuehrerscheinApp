@@ -16,7 +16,7 @@ dependencies {
 android {
   compileSdkVersion 21
   buildToolsVersion "21.1.2"
-  
+
   productFlavors {
     sbf_binnen {
       applicationId "de.dev.eth0.fuehrerschein.sbf_binnen"
@@ -35,7 +35,7 @@ android {
   defaultConfig {
     minSdkVersion 10
     targetSdkVersion 21
-    versionCode 7
+    versionCode 8
     testInstrumentationRunner "android.test.InstrumentationTestRunner"
   }
   // remove license.txt from dependencies
@@ -70,7 +70,7 @@ android {
     release {
       minifyEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-      //signingConfig signingConfigs.releaseSigning
+      signingConfig signingConfigs.releaseSigning
     }
     debug  {
       applicationIdSuffix ".debug"
@@ -102,11 +102,10 @@ android.applicationVariants.all { variant ->
 }
 
 gradle.taskGraph.whenReady { taskGraph ->
-  if(taskGraph.hasTask(':app:assembleRelease') && project(":app").android.buildTypes.release.signingConfig != null) {
+  if(taskGraph.hasTask(':Fuehrerschein Application:assembleRelease') && project(":Fuehrerschein Application").android.buildTypes.release.signingConfig != null) {
     def pass = System.console().readPassword("\nPlease enter key passphrase: ")
-    pwd = new String(pass)
-    project(":app").android.signingConfigs.releaseSigning.storePassword = pwd
-    project(":app").android.signingConfigs.releaseSigning.keyPassword = pwd
+    project(":Fuehrerschein Application").android.signingConfigs.releaseSigning.storePassword = new String(pass)
+    project(":Fuehrerschein Application").android.signingConfigs.releaseSigning.keyPassword = new String(pass)
   }
 }
 

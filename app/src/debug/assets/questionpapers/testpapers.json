@@ -9,7 +9,14 @@
         "title":"Test Fragebogen 1",
         "questions": [
         "t1", "t2", "t3" ]
-    }
+    },
+{
+    "id": "T2",
+    "title": "Test Fragebogen ohne Bilder",
+    "questions":[
+    "162", "188", "282"]
+}
     ]
+}
 }
 

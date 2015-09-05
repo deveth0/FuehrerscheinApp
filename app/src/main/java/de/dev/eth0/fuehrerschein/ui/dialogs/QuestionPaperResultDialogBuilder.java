@@ -5,6 +5,8 @@ package de.dev.eth0.fuehrerschein.ui.dialogs;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -30,11 +32,13 @@ public class QuestionPaperResultDialogBuilder extends AlertDialog.Builder {
     View view = inflater.inflate(R.layout.dialog_question_paper_result, null);
     if (pQuestion.getImg() != null && !pQuestion.getImg().isEmpty()) {
       ImageView questionsImage = (ImageView)view.findViewById(R.id.question_image);
-      questionsImage.setImageResource(pContext.getResources().getIdentifier(pQuestion.getImg().get(0), "drawable", pContext.getPackageName()));
+      questionsImage.setImageBitmap(
+              scaleImage(pContext.getResources(), pContext.getResources().getIdentifier(pQuestion.getImg().get(0), "drawable", pContext.getPackageName())));
       questionsImage.setVisibility(View.VISIBLE);
       if (pQuestion.getImg().size() > 1) {
         questionsImage = (ImageView)view.findViewById(R.id.question_image_2);
-        questionsImage.setImageResource(pContext.getResources().getIdentifier(pQuestion.getImg().get(1), "drawable", pContext.getPackageName()));
+        questionsImage.setImageBitmap(
+                scaleImage(pContext.getResources(), pContext.getResources().getIdentifier(pQuestion.getImg().get(1), "drawable", pContext.getPackageName())));
         questionsImage.setVisibility(View.VISIBLE);
       }
     }
@@ -62,5 +66,14 @@ public class QuestionPaperResultDialogBuilder extends AlertDialog.Builder {
         // just disappear...
       }
     });
+  }
+
+  private Bitmap scaleBitmap(Bitmap bitmap) {
+    int nh = (int)(bitmap.getHeight() * (512.0 / bitmap.getWidth()));
+    return Bitmap.createScaledBitmap(bitmap, 512, nh, true);
+  }
+
+  private Bitmap scaleImage(Resources resources, int identifier) {
+    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
   }
 }

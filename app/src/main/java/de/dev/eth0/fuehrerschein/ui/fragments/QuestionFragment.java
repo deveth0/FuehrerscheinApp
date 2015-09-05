@@ -4,6 +4,8 @@ package de.dev.eth0.fuehrerschein.ui.fragments;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
@@ -121,12 +123,13 @@ public class QuestionFragment extends AbstractBaseFragment implements View.OnCli
       final int imgId2 = (mQuestion.getImg().size() > 1)
               ? getResources().getIdentifier(mQuestion.getImg().get(1), "drawable", getActivity().getPackageName())
               : 0;
-      questionsImage.setImageResource(imgId);
+      
+      questionsImage.setImageBitmap(scaleBitmap(BitmapFactory.decodeResource(getResources(), imgId)));
       questionsImage.setVisibility(View.VISIBLE);
       if (mQuestion.getImg().size() > 1) {
         Log.v(TAG, "Question has another image defined: " + mQuestion.getImg().get(1));
         questionsImage = (ImageView)pView.findViewById(R.id.question_image_2);
-        questionsImage.setImageResource(imgId2);
+        questionsImage.setImageBitmap(scaleBitmap(BitmapFactory.decodeResource(getResources(), imgId2)));
         questionsImage.setVisibility(View.VISIBLE);
       }
       View imageWrapper = pView.findViewById(R.id.question_image_wrapper);
@@ -260,4 +263,8 @@ public class QuestionFragment extends AbstractBaseFragment implements View.OnCli
     }
   }
 
+  private Bitmap scaleBitmap(Bitmap bitmap) {
+    int nh = (int)(bitmap.getHeight() * (512.0 / bitmap.getWidth()));
+    return Bitmap.createScaledBitmap(bitmap, 512, nh, true);
+  }
 }

@@ -1,3 +1,4 @@
+apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
 apply plugin: 'checkstyle'
 apply plugin: 'com.github.triplet.play'
@@ -6,7 +7,7 @@ dependencies {
   compile 'com.android.support:support-v4:21.0.2'
   compile 'com.android.support:appcompat-v7:21.0.2'
   compile 'com.fasterxml.jackson.core:jackson-core:2.4.1'
-  compile  'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
+  compile 'com.fasterxml.jackson.core:jackson-annotations:2.4.1'
   compile 'com.fasterxml.jackson.core:jackson-databind:2.4.1.1'
   compile project(':libraries:android-support-v4-preferencefragment')
   compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -14,9 +15,10 @@ dependencies {
   androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.2.1:javadoc'
 }
 
+
 android {
-  compileSdkVersion 21
-  buildToolsVersion "21.1.2"
+  compileSdkVersion 22
+  buildToolsVersion "23.0.1"
 
   productFlavors {
     sbf_binnen {

@@ -57,6 +57,11 @@ android {
     targetCompatibility JavaVersion.VERSION_1_7
   }
 
+  play {
+   
+    uploadImages = true
+  }
+
   signingConfigs {
     releaseSigning {
       storeFile file("../../misc/android-release-key.keystore")
@@ -105,7 +110,10 @@ android.applicationVariants.all { variant ->
 }
 
 gradle.taskGraph.whenReady { taskGraph ->
-  if(taskGraph.hasTask(':Fuehrerschein Application:assembleRelease') && project(":Fuehrerschein Application").android.buildTypes.release.signingConfig != null) {
+  if((taskGraph.hasTask(':Fuehrerschein Application:assembleRelease')
+      || taskGraph.hasTask(':Fuehrerschein Application:packageSbf_binnenRelease')
+      || taskGraph.hasTask(':Fuehrerschein Application:packageSbf_seeRelease'))
+    && project(":Fuehrerschein Application").android.buildTypes.release.signingConfig != null) {
     def pass = System.console().readPassword("\nPlease enter key passphrase: ")
     project(":Fuehrerschein Application").android.signingConfigs.releaseSigning.storePassword = new String(pass)
     project(":Fuehrerschein Application").android.signingConfigs.releaseSigning.keyPassword = new String(pass)

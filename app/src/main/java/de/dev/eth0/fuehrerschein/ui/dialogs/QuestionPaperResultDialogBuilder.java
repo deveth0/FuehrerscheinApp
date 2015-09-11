@@ -5,8 +5,8 @@ package de.dev.eth0.fuehrerschein.ui.dialogs;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.res.Resources;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -33,12 +33,16 @@ public class QuestionPaperResultDialogBuilder extends AlertDialog.Builder {
     if (pQuestion.getImg() != null && !pQuestion.getImg().isEmpty()) {
       ImageView questionsImage = (ImageView)view.findViewById(R.id.question_image);
       questionsImage.setImageBitmap(
-              scaleImage(pContext.getResources(), pContext.getResources().getIdentifier(pQuestion.getImg().get(0), "drawable", pContext.getPackageName())));
+              scaleBitmap(BitmapFactory.decodeResource(
+                              pContext.getResources(),
+                              pContext.getResources().getIdentifier(pQuestion.getImg().get(0), "drawable", pContext.getPackageName()))));
       questionsImage.setVisibility(View.VISIBLE);
       if (pQuestion.getImg().size() > 1) {
         questionsImage = (ImageView)view.findViewById(R.id.question_image_2);
         questionsImage.setImageBitmap(
-                scaleImage(pContext.getResources(), pContext.getResources().getIdentifier(pQuestion.getImg().get(1), "drawable", pContext.getPackageName())));
+                scaleBitmap(BitmapFactory.decodeResource(
+                                pContext.getResources(),
+                                pContext.getResources().getIdentifier(pQuestion.getImg().get(1), "drawable", pContext.getPackageName()))));
         questionsImage.setVisibility(View.VISIBLE);
       }
     }
@@ -71,9 +75,5 @@ public class QuestionPaperResultDialogBuilder extends AlertDialog.Builder {
   private Bitmap scaleBitmap(Bitmap bitmap) {
     int nh = (int)(bitmap.getHeight() * (512.0 / bitmap.getWidth()));
     return Bitmap.createScaledBitmap(bitmap, 512, nh, true);
-  }
-
-  private Bitmap scaleImage(Resources resources, int identifier) {
-    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
   }
 }
